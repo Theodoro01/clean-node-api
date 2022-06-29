@@ -29,3 +29,11 @@ E isso é muito bom para impedimos commits que estão com o codigo mal formatado
   },
 
 Sempre que ouver algum arquivo .js no nosso staged podemos verificar se ele está formatado corretamente.
+
+## Husky
+
+Permite que a gente adicioe hooks no git.
+
+O que é um hooks ?
+
+É um pré commit, então ele permite que eu rode um script antes que aconteça um commit.
