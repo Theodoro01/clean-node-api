@@ -8,8 +8,8 @@
   },
   "lint-staged":{
     "*.js": [
-      "standard --fix",
-      "git add"
+      "standard"
+
     ]
   },
   "husky":{
