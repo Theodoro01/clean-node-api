@@ -1,5 +1,5 @@
-function teste () {
-  return { msg: 'Ola' }
+function teste(){
+  return { msg: 'Ola'};
 }
 
-teste()
+teste();

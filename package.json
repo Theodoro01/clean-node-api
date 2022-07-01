@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "prepare": "husky install",
-    "scriptname": "cmd"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
