@@ -1,5 +1,5 @@
-function teste(){
+function teste (){
   return { msg: 'Ola' };
 };
 
-teste();
+teste()
