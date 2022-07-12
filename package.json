@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --watchAll",
     "prepare": "husky install",
-    "test:staged": "jest"
+    "test:staged": "jest",
+    "pre-commit": "npx standardx --fix"
   },
   "repository": {
     "type": "git",
