@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "jest --watchAll --silent --colors --noStackTrace",
     "prepare": "husky install",
-    "test:staged": "jest",
+    "test:staged": "jest --silent --noStackTrace",
     "pre-commit": "npx standardx --fix"
   },
   "repository": {
