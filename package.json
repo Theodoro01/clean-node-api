@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --silent --colors --noStackTrace",
+    "test": "jest --silent --colors --noStackTrace --passWithNoTests",
+    "test:unit": "npm test -- --watchAll -c jest-unit-config.js ",
     "prepare": "husky install",
-    "test:staged": "jest --silent --noStackTrace",
-    "pre-commit": "npx standardx --fix"
+    "test:staged": " npm jest -- --findRelatedTests"
   },
   "repository": {
     "type": "git",
